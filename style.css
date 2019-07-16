@@ -1,0 +1,48 @@
+body {
+    background-color: #F9F5F9;
+}
+
+header li {
+list-style: none;
+        }
+a:link, a:visited {
+        text-decoration: none;
+        background-color: #630866;
+        border: 1px solid black;
+        color: white;
+        display: block;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 1px;
+        align-items: center;
+        }
+
+a:hover, a:active {
+        background-color: #FFD740;
+        color: white;
+        }    
+
+        header li:nth-child(1) {
+            font-size: 23px;
+        }
+         h1 {
+             color: dodgerblue;
+             text-align: center;
+         }
+         
+         .important {
+             color: red;
+             font-size: 23px;
+             font-weight: bold;
+             font-style: normal;
+         }
+
+         #header {
+             color: blue;
+             font-size: 16px;
+             font-weight: bold;
+
+         }
+
+         
+ 

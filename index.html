@@ -3,12 +3,27 @@
         <head>
             <meta charset="utf-8">           
              <title>HTML, CSS, and JS Course.</title>
+             
+             <link rel="stylesheet" href="style.css">
          </head>
+        
         <body>
+                <link rel="stylesheet" href="style.css">
             <h1>HTML, CSS, and JavaScript for Web Developers!</h1><br>
 
-            <h2>Usaré este Documento para poner cosas importantes del curso.</h2>
-                <p>Los primeros pasos del curso son acerca de la configuración inicial del proyecto, 
+            <header>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://www.facebook.com/daniel.garrido.danyboy"target="_blank">About me</a></li>
+                    <li><a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers"target=_blank">About the course</a></li>
+
+                </ul>
+
+
+
+
+            </header><h2 class="important">Usaré este Documento para poner cosas importantes del curso.</h2>
+                <p class="highlight">Los primeros pasos del curso son acerca de la configuración inicial del proyecto, 
                 tomándo en cuenta Git, NodeJS y Browser Sync.<br>
                 Todo está configurado en mac. El profesor recomendó "Sublime text" para escribir código. Sin embargo, estaré usando VScode, 
                 ya que es el que actualmente usamos en Inncosys. </p>
@@ -22,7 +37,7 @@
         
                 <section>
                     <ul>
-                    <li> h1 - h6 <em><strong>  (Headings and Subheadings).</strong></em>
+                    <li> <...h1 - h6...> <em><strong>  (Headings and Subheadings).</strong></em>
                         <ul>
                             <li> h1 (always needed) Being the heading</li>
                             <li> Followed by sub headings (h2)</li>
@@ -33,7 +48,7 @@
                 </section>
         
                 <section>
-                    <li><strong>header</strong> 
+                    <li><span id="header">header</span></strong> 
                         <ul>
                             <li>Some header information goes here. Usually consistts of company logo, some tag line, etc. 
                             Sometimes, navigation is contained in the header as well.</li>
@@ -49,40 +64,41 @@
 
                     </li>
             </section>
-        <section>
-             <li><strong>Section</strong> 
+                 <section>
+                 <li><strong>section</strong> 
                     <ul>
                         <li>Within the section there usually are some "article" elements</li>
                     </ul>
-            </li>
-            </section>
-        <section>
-            <li><strong>aside</strong> 
+                 </li>
+                 </section>
+             <section>
+                  <li><strong>aside</strong> 
                     <ul>
                         <li>ASIDE - Some information that relates to the main topic, i.e., 
-                    related posts.</li>
+                    related posts.
+                        </li>
                     </ul>
-            </li>
+                </li>
             </section>
-        <section>
-            <li><strong>Article</strong> 
-                <ul>
-                    <li>An article should make sense on its own and it should be possible to distribute it independently from the rest 
-                        of the site.
+                 <section>
+                    <li><strong>article</strong> 
+                      <ul>
+                          <li>An article should make sense on its own and it should be possible to distribute it independently from the rest 
+                            of the site.
 
                             Potential sources for the element: 
-                        <ol>
+                             <ol>
                             
-                            <li>Forum post</li>
-                            <li>Blog post</li>
-                            <li>News story</li>
-                            <li>Comment</li>
-                        </ol></li>
-                </ul>
-            </li>
-            </section>
-        <section>
-                <li><strong>Footer</strong> 
+                                <li>Forum post</li>
+                                <li>Blog post</li>
+                                <li>News story</li>
+                                <li>Comment</li>
+                             </ol></li>
+                        </ul>
+                    </li>
+                </section>
+            <section>
+                 <li><strong><...Footer...></strong> 
                     <ul>
                         <li>Contains the footer information in it.</li>
                     </ul>
